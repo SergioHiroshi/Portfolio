@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! My name is [Sergio Hiroshi Carrera Monnier] and I am a [Web Developer] based in [Monterrey, NL]. In this repository, you will find some of my recent projects and works that I have completed. Please feel free to take a look around and explore my portfolio.
 
+![WIN_20230509_11_04_31_Pro](https://github.com/SergioHiroshi/Portfolio/assets/123132444/5fc2548b-7129-4385-be6a-ca681c36b0ff)
+
 ## About Me
 
 I am currently studying a Bachelor's Degree in [Computer Science], currently on my [last] year of college with experience in [Web Development]. I specialize in [Fullstack Development], and I have worked with various clients and companies in the past. My goal is to use my skills and expertise to create innovative solutions and deliver high-quality results.
