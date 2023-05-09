@@ -8,11 +8,11 @@ I am currently studying a Bachelor's Degree in [Computer Science], currently on 
 
 ## My Projects
 
-Here are some of my recent projects that I have completed:
+Here are some of my recent web pages that I have worked on:
 
-- [Project 1](https://github.com/SergioHiroshi/Proyects/Web/CVA): [Social Service WebPage, developed during my student years]
-- [Project 2](https://github.com/SergioHiroshi/Proyects/Web/CVA): [Testing... Missing proyect]
-- [Project 3](https://github.com/SergioHiroshi/Proyects/Web/fox): [Freelancing proyect for NEODEX, currently this is a template in progress]
+- [CVA](https://github.com/SergioHiroshi/Proyects/Web/CVA): [Social Service WebPage, developed during my student years]
+- [Auxiliar for Testing](https://github.com/SergioHiroshi/Proyects/Web/CVA): [Testing... Missing proyect]
+- [NEODEX](https://github.com/SergioHiroshi/Proyects/Web/fox): [Freelancing proyect for NEODEX, currently this is a template in progress]
 
 Please feel free to explore my GitHub repository to see more of my projects and works.
 
