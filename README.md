@@ -4,6 +4,18 @@ Welcome to my portfolio! My name is [Sergio Hiroshi Carrera Monnier] and I am a 
 
 ![WIN_20230509_11_04_31_Pro](https://github.com/SergioHiroshi/Portfolio/assets/123132444/5fc2548b-7129-4385-be6a-ca681c36b0ff)
 
+<div id="badges">
+  <a href="your-linkedin-URL">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="your-youtube-URL">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="your-twitter-URL">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>
+
 ## About Me
 
 I am currently studying a Bachelor's Degree in [Computer Science], currently on my [last] year of college with experience in [Web Development]. I specialize in [Fullstack Development], and I have worked with various clients and companies in the past. My goal is to use my skills and expertise to create innovative solutions and deliver high-quality results.
