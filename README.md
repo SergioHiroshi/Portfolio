@@ -4,7 +4,7 @@ Welcome to my portfolio! My name is [Sergio Hiroshi Carrera Monnier] and I am a 
 
 
 <div id="header" align="center">
-  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://github.com/SergioHiroshi/Portfolio/assets/123132444/5fc2548b-7129-4385-be6a-ca681c36b0ff)" width="100"/>
+  <img src="https://github.com/SergioHiroshi/Portfolio/assets/123132444/5fc2548b-7129-4385-be6a-ca681c36b0ff" width="100"/>
 </div>
 
 <div id="badges">
