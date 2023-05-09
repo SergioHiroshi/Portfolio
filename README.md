@@ -2,7 +2,10 @@
 
 Welcome to my portfolio! My name is [Sergio Hiroshi Carrera Monnier] and I am a [Web Developer] based in [Monterrey, NL]. In this repository, you will find some of my recent projects and works that I have completed. Please feel free to take a look around and explore my portfolio.
 
-![WIN_20230509_11_04_31_Pro](https://github.com/SergioHiroshi/Portfolio/assets/123132444/5fc2548b-7129-4385-be6a-ca681c36b0ff)
+
+<div id="header" align="center">
+  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://github.com/SergioHiroshi/Portfolio/assets/123132444/5fc2548b-7129-4385-be6a-ca681c36b0ff)" width="100"/>
+</div>
 
 <div id="badges">
   <a href="your-linkedin-URL">
