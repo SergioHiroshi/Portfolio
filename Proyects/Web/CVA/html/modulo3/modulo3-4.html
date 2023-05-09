@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>Tema 1: Ley de Ohm| CVA - Centro Virtual de Aprendizaje</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
+
+    <!-- page plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/css/modulos/modulo1/dataCirculos.css"
+    />
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+  </head>
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
+
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid px-0 px-sm-3">
+              <!-- Your content goes here -->
+
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-horizon">
+                      <div class="image-container col-md-4 offset-md-8">
+                        <div class="background-holder has-content">
+                          <button
+                            data-toggle="modal"
+                            data-target="#leyOhm"
+                            class="btn btn-default"
+                            style="
+                              width: 100%;
+                              height: 100%;
+                              background-image: url('../../assets/images/course/modulo1/m1-1/shutterstock_400761526_1.jpg');
+                              background-repeat: no-repeat;
+                              background-size: cover;
+                              border-radius: 50%;
+                            "
+                          ></button>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="card-block">
+                            <h1 class="mrg-btm-20 card-title">
+                              <span class="badge badge-light">
+                                Tema 1:</span
+                              > La ley de Ohm
+                            </h1>
+                            <p>
+                              La ley de Ohm es una ley en la electricidad que
+                              establece que la fuerza de una corriente continua
+                              es directamente proporcional a la diferencia de
+                              potencial e inversamente proporcional a la
+                              resistencia del circuito.
+                            </p>
+                            <p>
+                              Para los estudiantes de electrónica, la ley de Ohm
+                              (V = IR) es tan fundamental como lo es la ecuación
+                              de la relatividad de Einstein (E = mc²) para los
+                              físicos. En forma explícita, significa que tensión
+                              = corriente x resistencia, o voltios = amperios x
+                              ohmios.
+                            </p>
+                            <p
+                              class="card-info mb-3 mrg-top-0 mrg-horizon-auto"
+                              style="width: fit-content"
+                            >
+                              <i class="icon ti-mouse-alt"></i>
+                              Haz clic sobre los recuadros para cambiar la vista.
+                            </p>
+                            <div class="pill-info nav-horizon">
+                              <ul class="nav nav-pills" role="tablist">
+                                <li class="nav-item">
+                                  <a
+                                    href="#variablesOhm"
+                                    class="nav-link active show"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    aria-selected="true"
+                                  >
+                                    Las variables
+                                  </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="#usosOhm"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-toggle="tab"
+                                    aria-selected="false"
+                                  >
+                                    Sus usos
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-horizon">
+                      <div class="tab-content">
+                        <div id="usosOhm" class="tab-pane fade" role="tabpanel">
+                          <div class="row">
+                            <div class="col">
+                              <div class="card">
+                                <div class="card-horizon">
+                                  <div class="image-container col-md-4">
+                                    <div
+                                      class="background-holder has-content"
+                                      style="
+                                        background-image: url(../../assets/images/course/modulo1/m1-1/shutterstock_400761526_1.jpg);
+                                      "
+                                    ></div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-md-8 offset-md-4">
+                                      <div class="card-block">
+                                        <h2 class="card-title">
+                                          ¿Para qué se utiliza la ley de Ohm?
+                                        </h2>
+                                        <p>
+                                          La ley de Ohm puede usarse para validar:
+                                          <ul>
+                                            <li>Valores estáticos de los componentes de un circuito</li>
+                                            <li>Niveles de corriente</li>
+                                            <li>Suministros de voltaje</li>
+                                            <li>Caídas de tensión</li>
+                                          </ul>
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="variablesOhm"
+                          class="tab-pane fade in active show"
+                          role="tabpanel"
+                        >
+                          <div class="row">
+                            <div class="col">
+                              <div class="card">
+                                <p
+                                  class="card-info mb-3 mrg-top-0 mrg-horizon-auto"
+                                  style="width: fit-content"
+                                >
+                                  <i class="icon ti-mouse-alt"></i>
+                                  Coloca tu ratón sobre los círculos para conocer más
+                                </p>
+                                <div class="card-horizon data">
+                                  <div class="data rotateX circulo"></div>
+                                  <div class="data contenido">
+                                    <div class="image-container col-md-4">
+                                      <div
+                                        class="background-holder has-content"
+                                        style="
+                                          background: url(../../assets/images/course/modulo1/m1-1/shutterstock_400761526_1.jpg);
+                                          border-radius: 10px;
+                                        "
+                                      ></div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-8 ml-auto">
+                                        <div class="card-block">
+                                          <h2
+                                            class="mrg-btm-20 card-title"
+                                            style="color: white; text-decoration: underline;"
+                                          >
+                                            Resistencia (R)
+                                          </h2>
+                                          <p style="color: white">
+                                            Por resistencia nos referimos al obstáculo que la corriente encuentra en su camino, cuanto más alto sea, más difícil será que la corriente lo atraviese. La unidad de medida de la resistencia son los ohmios, simbolizados por la letra griega omega (Ω).
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="card-horizon data">
+                                  <div class="data rotateX circulo"></div>
+                                  <div class="data contenido">
+                                    <div
+                                      class="image-container col-md-4 offset-md-8"
+                                    >
+                                      <div
+                                        class="background-holder has-content"
+                                        style="
+                                          background: url(../../assets/images/course/modulo1/m1-1/shutterstock_400761526_1.jpg);
+                                          border-radius: 10px;
+                                        "
+                                      ></div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-8 mr-auto">
+                                        <div class="card-block">
+                                          <h2
+                                            class="mrg-btm-20 card-title"
+                                            style="color: white; text-decoration: underline;"
+                                          >
+                                            Corriente (I)
+                                          </h2>
+                                          <p style="color: white">
+                                            I es la intensidad de una corriente eléctrica que atraviesa un conductor expresada en Amperios (A).
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card-horizon data">
+                                  <div class="data rotateX circulo"></div>
+                                  <div class="data contenido">
+                                    <div
+                                      class="image-container col-md-4"
+                                    >
+                                      <div
+                                        class="background-holder has-content"
+                                        style="
+                                          background: url(../../assets/images/course/modulo1/m1-1/shutterstock_400761526_1.jpg);
+                                          border-radius: 10px;
+                                        "
+                                      ></div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-8 ml-auto">
+                                        <div class="card-block">
+                                          <h2
+                                            class="mrg-btm-20 card-title"
+                                            style="color: white; text-decoration: underline;"
+                                          >
+                                            Voltaje (V)
+                                          </h2>
+                                          <p style="color: white">
+                                            Por voltaje en cambio nos referimos a la diferencia de potencial entre un punto con respecto a otro expresado en Voltios (V).
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="leyOhm"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="modalLeyOhm"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-lg"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalQuote">
+                        <b>¿De dónde viene la ley de Ohm?</b>
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                        style="color: red"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col">
+                          <div class="card">
+                            <div class="card-horizon">
+                              <div
+                                class="col-md-6 mrg-horizon-auto text-center"
+                              >
+                                <img
+                                  src="../../assets/images/course/modulo1/m1-1/shutterstock_400761526_1.jpg"
+                                  style="height: 40vh; border-radius: 50%"
+                                />
+                              </div>
+                              <div class="row">
+                                <div class="col-md-12 text-center">
+                                  <p>
+                                    Postulada por el físico y matemático alemán
+                                    Georg Simon Ohm, es una ley básica para
+                                    entender los fundamentos principales de los
+                                    circuitos eléctricos. Se utiliza para
+                                    determinar la relación entre tensión,
+                                    corriente y resistencia en un circuito
+                                    eléctrico.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mrg-btm-20">
+                <div class="col text-center">
+                  <div class="btn-group"></div>
+                </div>
+              </div>
+
+              <div class="card widget-feed">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="feed-title tag tag-info">Módulo 3</h1>
+                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                    <div class="progress" style="height: 20px" id="bar">
+                      <div
+                        class="progress-bar bg-info"
+                        role="progressbar"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="max-width: 4%"
+                      >
+                        4%
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="row">
+                      <div class="col">
+                        <div id="circlecontainer"></div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <h3 class="feed-subtitle">
+                          Progreso General del Curso
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/progress/url-script.js"></script>
+
+    <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
+    <script type="text/javascript">
+      show(0.02);
+    </script>
+
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+  </body>
+</html>
